@@ -6,4 +6,4 @@ if [ $? -eq 0 ]; then ./a.out; fi
 
 # I must run this script with this file called "q" in the same director as the file that I am trying to run, and the
 # below command is the command that I need to use to do what's being mentioned above.
-# ! chmod 755 q; chmod 755 run_vector_add.sh; if [ -x "$(command -v qsub)" ]; then ./q run_vector_add.sh; else ./run_vector_add.sh; fi
+# chmod 755 q; chmod 755 run_vector_add.sh; if [ -x "$(command -v qsub)" ]; then ./q run_vector_add.sh; else ./run_vector_add.sh; fi
